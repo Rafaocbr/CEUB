@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - CEUB</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">InnoTech</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Sobre nós</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#grid-two">Produtos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Impulsionando Inovações Digitais</h2>
+        <p>A InnoTech Solutions é uma empresa de tecnologia líder, especializada em soluções inovadoras para empresas de todos os portes. Com uma equipe altamente qualificada e experiente, nos dedicamos a fornecer soluções personalizadas que atendam às necessidades únicas de nossos clientes, ajudando-os a alcançar seus objetivos de negócios de maneira eficiente e lucrativa.
+
+        </p>
+      </div>
+      <div class="intro-img">
+        <img src="./assets/img/693.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>InnoConnect Plataforma de Integração de Sistemas</h2>
+      <p>O InnoConnect é uma poderosa plataforma de integração de sistemas que permite a conexão perfeita entre diferentes aplicativos, 
+        bancos de dados e sistemas legados. Essa solução inovadora elimina as barreiras de comunicação entre diferentes tecnologias, 
+        garantindo um fluxo de dados contínuo e seguro em toda a empresa.</p>
+      <p>Nosso principal produto, o InnoConnect, é uma plataforma de integração de sistemas revolucionária que soluciona um dos maiores 
+        desafios enfrentados pelas empresas modernas: a fragmentação de dados e sistemas. O InnoConnect atua como uma ponte de comunicação 
+        perfeita, permitindo que diferentes aplicativos, bancos de dados e sistemas legados se conectem e compartilhem informações de maneira 
+        segura e contínua.</p>
+      <p>Com o InnoConnect, nossas empresas clientes podem desfrutar de uma visão unificada de seus dados, eliminando silos de informação e 
+        facilitando a tomada de decisões estratégicas com base em insights precisos e em tempo real. Além disso, nossa plataforma é altamente 
+        escalável e personalizável, adaptando-se às necessidades específicas de cada cliente, independentemente do tamanho ou setor.</p>
+    </div>
+  </section>
+
+
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria</h2>
+      <p class="grid-description">Nossa empresa.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="./assets/img/img3.jpg"/>
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/img2.jpg"/>
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/img4.jpg"/>
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/img5.jpg"/>
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/img6.jpg"/>
+        </div>
+        <div class="gallery-img">
+          <img src="./assets/img/img8.jpg"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Produtos</h2>
+      <br>
+      <br>
+      <br>
+
+      <div class="grid">
+        <article>
+          <h3>InnoConnect</h3>
+          <p> Plataforma de Integração de Sistemas. O InnoConnect é o principal produto da InnoTech Solutions. 
+            É uma plataforma revolucionária que permite a conexão perfeita entre diferentes aplicativos, bancos de dados e sistemas legados, 
+            eliminando barreiras de comunicação e garantindo um fluxo contínuo e seguro de dados em toda a empresa.</p>
+        </article>
+        <article>
+          <h3>InnoAnalytics</h3>
+          <p>O InnoAnalytics é uma poderosa solução de Business Intelligence que combina análise de dados avançada com visualizações interativas e relatórios personalizados. 
+            Ela permite que as empresas transformem seus dados brutos em insights acionáveis, identificando tendências, padrões e oportunidades de otimização de 
+            processos e aumento de receitas.</p>
+        </article>
+        <article>
+          <h3>InnoSecure</h3>
+          <p>A InnoSecure é uma plataforma abrangente de segurança cibernética projetada para proteger as empresas contra ameaças crescentes, 
+            como ataques de malware, phishing, ransomware e violações de dados. Ela combina tecnologias avançadas de firewall, detecção de ameaças, gerenciamento de acessos e conformidade regulatória, 
+            garantindo a proteção contínua dos ativos digitais da empresa.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>IMPULSIONANDO INOVAÇÕES DIGITAIS</h2>
+        <p>Na InnoTech Solutions, valorizamos o relacionamento próximo com nossos clientes e parceiros. Nossa equipe está 
+          pronta para ouvir suas necessidades, responder a suas dúvidas e ajudá-lo a encontrar as melhores soluções tecnológicas 
+          para impulsionar seu negócio.
+
+        </p>
+      </div>
+      <div class="intro-img">
+        <img src="./assets/img/693.jpg">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Preencha o formulário abaixo e um de nossos consultores entrará em contato em breve para entender melhor suas necessidades e 
+            apresentar soluções personalizadas.
+
+          </legend>
+
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Digite sua mensagem</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="sua mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar</button>
+          </div>
+        </fieldset>
+      </div>  
+    </div>
+  </section>
+
+
+
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
